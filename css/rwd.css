@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 768px) {
+    #home .main-head h1{
+        font-size: 2rem;
+    }
+}  
+
+@media screen and (max-width: 992px) {
+    .head-icon{
+        display: none;
+    }
+
+}
+
