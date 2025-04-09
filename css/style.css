@@ -118,16 +118,29 @@ footer .icon:hover {
     transition: all 1s;
 }
 
-.col-md-4:hover .card img{
+.col-md-6:hover .card img {
     transform: scale(1.1);
 }
-.lead{
+
+.lead {
     font-size: 1.2rem;
 }
+
 .card {
     box-shadow: 1px 1px 15px 3px rgb(182, 182, 182);
 }
 
-.layer{
+.layer {
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.col-md-6 .card {
+    height: 27rem;
+}
+
+.card a {
+    position: absolute;
+    bottom: 1rem;
+    left: 5%;
+    width: 90% !important;
 }

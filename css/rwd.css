@@ -1,41 +1,49 @@
-
 @media screen and (max-width: 590px) {
-    header h1{
+    header h1 {
         font-size: 2.4rem;
     }
-    .bg-text{
+
+    .bg-text {
         font-size: 2.8rem;
     }
-    .personal-img-container{
+
+    .personal-img-container {
         padding-bottom: 3rem;
     }
+
     .parent {
         width: 270px;
     }
-    
+
     .child {
         width: 270px;
         top: .7rem;
         left: .7rem;
     }
+
     #about .container {
         width: 93%;
     }
+
     #services .col-md-4 {
         margin-top: 1.5rem;
     }
-}  
+}
 
 @media screen and (max-width: 768px) {
-    #home .main-head h1{
+    #home .main-head h1 {
         font-size: 2rem;
     }
-}  
+    .col-md-6 .card{
+        height: 359rem;
+    }
+
+    
+}
 
 @media screen and (max-width: 992px) {
-    .head-icon{
+    .head-icon {
         display: none;
     }
 
 }
-
