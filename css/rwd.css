@@ -24,7 +24,7 @@
     #about .container {
         width: 93%;
     }
-
+    
     #services .col-md-4 {
         margin-top: 1.5rem;
     }
@@ -35,15 +35,15 @@
         font-size: 2rem;
     }
     .col-md-6 .card{
-        height: 359rem;
+        height: 27rem;
+        width: 90%;
+        margin: auto;
     }
 
     
 }
 
 @media screen and (max-width: 992px) {
-    .head-icon {
-        display: none;
-    }
+    
 
 }

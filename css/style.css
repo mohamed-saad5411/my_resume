@@ -2,6 +2,10 @@
     --main-color: rgb(0, 112, 218);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .main-color {
     color: var(--main-color);
 }
@@ -18,7 +22,7 @@ header {
 }
 
 nav {
-    background-color: rgba(77, 77, 77, 0.7);
+    transition: all 1s;
 }
 
 .navbar-brand {
@@ -143,4 +147,20 @@ footer .icon:hover {
     bottom: 1rem;
     left: 5%;
     width: 90% !important;
+}
+#goToTop{
+    background-color: var(--main-color);
+    transform: translateY(-150%);
+    width: 3rem;
+    height: 3rem;
+    transition: all 1s;
+}
+#goToTop:hover{
+    background-color: white;
+}
+#goToTop:hover a i{
+    color: var(--main-color) !important;    
+}
+#goToTop a i{
+    transition: all 1s;
 }
