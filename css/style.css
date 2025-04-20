@@ -2,7 +2,7 @@
     --main-color: rgb(0, 112, 218);
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -139,7 +139,27 @@ footer .icon:hover {
 }
 
 .col-md-6 .card {
-    height: 27rem;
+    height: 29rem;
+}
+
+.project-subject {
+    /* border-bottom: 2px solid var(--main-color); */
+position: relative;
+}
+
+.project-subject::after {
+    content: '';
+    background-color: var(--main-color);
+    width: 30%;
+    height: 0.15rem;
+    position: absolute;
+    left: 35%;
+    top: 110%;
+    transition: all 1s;
+}
+.project-subject:hover::after {
+    width: 50%;
+    left: 25%;
 }
 
 .card a {
@@ -148,19 +168,23 @@ footer .icon:hover {
     left: 5%;
     width: 90% !important;
 }
-#goToTop{
+
+#goToTop {
     background-color: var(--main-color);
     transform: translateY(-150%);
     width: 3rem;
     height: 3rem;
     transition: all 1s;
 }
-#goToTop:hover{
+
+#goToTop:hover {
     background-color: white;
 }
-#goToTop:hover a i{
-    color: var(--main-color) !important;    
+
+#goToTop:hover a i {
+    color: var(--main-color) !important;
 }
-#goToTop a i{
+
+#goToTop a i {
     transition: all 1s;
 }
