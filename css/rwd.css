@@ -24,7 +24,7 @@
     #about .container {
         width: 93%;
     }
-    
+
     #services .col-md-4 {
         margin-top: 1.5rem;
     }
@@ -34,16 +34,39 @@
     #home .main-head h1 {
         font-size: 2rem;
     }
-    .col-md-6 .card ,.col-md-6 .card{
+
+    .col-md-6 .card,
+    .col-md-6 .card {
         height: 30rem;
         width: 90%;
         margin: auto;
     }
 
-    
+    .ml3 {
+        font-size: 2rem !important;
+    }
+
+    h1 {
+        font-size: 3rem !important;
+
+    }
+
+
 }
 
 @media screen and (max-width: 992px) {
-    
+
+    #navbarNav {
+        background-color: black;
+        text-align: center;
+        padding: 1.5rem;
+    }
+    nav li a::after {
+        width: 5%;
+        left: 40%;
+    }
+    nav li a:hover::after {
+        width: 15%;
+    }
 
 }
